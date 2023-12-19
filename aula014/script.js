@@ -7,7 +7,7 @@ function carregar() {
     if (hora >= 0 && hora < 12) {
         //Bom dia!
         img.src = 'imgbomdia.png'
-        document.body.style.background = '#ffffff'
+        document.body.style.background = '#969393'
     } else if (hora >= 12 && hora <= 18) {
         //Boa tarde!
         img.src = 'imgboatarde.png'
